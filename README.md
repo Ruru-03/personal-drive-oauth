@@ -6,6 +6,7 @@ Windows와 Linux에서 AI 작업 결과물을 Google Drive로 교환하기 위�
 
 - `index.html`: 앱 소개
 - `privacy.html`: 개인정보처리방침
+- `terms.html`: 개인용 연동의 서비스 약관
 - `styles.css`: 두 페이지의 공통 디자인
 - `.nojekyll`: 정적 파일을 그대로 게시하기 위한 설정
 
@@ -19,12 +20,15 @@ GitHub Pages 배포 후 다음 주소가 로그인 없이 열리는지 확인합
 | 사용자 지원 이메일 | Google Cloud에서 선택 가능한 운영자 본인의 실제 이메일 |
 | 앱 홈페이지 | https://ruru-03.github.io/personal-drive-oauth/ |
 | 개인정보처리방침 | https://ruru-03.github.io/personal-drive-oauth/privacy.html |
+| 서비스 약관 | https://ruru-03.github.io/personal-drive-oauth/terms.html |
 | 개발자 연락처 | 운영자 본인의 실제 이메일 |
 | 승인된 도메인 입력 후보 | `ruru-03.github.io` — 프로토콜과 경로는 제외하며, 실제 콘솔 수락 여부를 확인합니다. |
 
 위 홈페이지·정책 주소는 OAuth 리디렉션 URI가 아닙니다. OAuth 클라이언트 유형과 리디렉션 URI는 실제 Windows/Linux 연동 도구가 요구하는 설정을 따릅니다. 이 홈페이지에는 인증 콜백 기능이 없습니다.
 
 이 페이지를 게시했다고 Google의 앱 검증이나 도메인 검증이 완료되는 것은 아닙니다. [Google 브랜딩 요구사항](https://support.google.com/cloud/answer/15549049?hl=en)
+
+현재 Google 브랜딩 안내는 외부 프로덕션 앱에 홈페이지·개인정보처리방침·서비스 약관 링크를 요구하며, OAuth 정책도 홈페이지에 두 정책 링크를 포함하도록 안내합니다. 일부 production readiness 문서에는 약관이 선택 항목이라고 표현되어 있지만, 이 저장소는 약관 페이지까지 제공합니다. [OAuth 홈페이지 정책](https://developers.google.com/identity/protocols/oauth2/policies#host_a_homepage_for_production_apps)
 
 ## GitHub Pages 배포와 수정
 
